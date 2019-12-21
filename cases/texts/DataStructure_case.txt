@@ -1,0 +1,28 @@
+A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. 
+A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R). 
+L and R are binary trees or the empty set and S is a singleton set. 
+Some authors allow the binary tree to be the empty set as well. 
+The maximum possible number of null links (i.e., absent children of the nodes) in a complete binary tree of n nodes is (n+1). 
+Only 1 node exists in bottom-most level to the far left. 
+For any non-empty binary tree with n0 leaf nodes and n2 nodes of degree 2, n0 = n2 + 1. 
+This means that a perfect binary tree with l leaves has n=2l-1 nodes. 
+There are some types of binary tree. 
+A rooted binary tree has a root node and every node has at most two children. 
+A full binary tree (sometimes referred to as a proper or plane binary tree) is a tree in which every node has either 0 or 2 children. 
+A perfect binary tree is a binary tree. 
+All interior nodes have two children and all leaves have the same depth or same level. 
+In a complete binary tree every level, except possibly the last, is completely filled. 
+All nodes in the last level are as far left as possible. 
+A degenerate (or pathological) tree is where each parent node has only one associated child node, and so on. 
+There are a variety of different operations that can be performed on binary trees. 
+Some are mutator operations, while others simply return useful information about the tree.
+In computing, binary trees are used in two very different ways: 
+First, as a means of accessing nodes based on some value or label associated with each node. 
+Binary trees labelled this way are used to implement binary search trees and binary heaps, and are used for efficient searching and sorting. 
+The designation of non-root nodes as left or right child even when there is only one child present matters in some of these applications, in particular it is significant in binary search trees. 
+However, the arrangement of particular nodes into the tree is not part of the conceptual information. 
+For example, in a normal binary search tree the placement of nodes depends almost entirely on the order in which they were added, and can be re-arranged without changing the meaning. 
+Second, as a representation of data with a relevant bifurcating structure. 
+In such cases the particular arrangement of nodes under and/or to the left or right of other nodes is part of the information (that is, changing it would change the meaning). 
+Common examples occur with Huffman coding and cladograms. 
+The everyday division of documents into chapters, sections, paragraphs, and so on is an analogous example with n-ary rather than binary trees.
