@@ -15,7 +15,7 @@ class WikiSpider(scrapy.Spider):
         # url
         self.base_url = 'http://en.wikipedia.org'
         # 所有课程名
-        self.class_names = ['固体力学', '晶体学']
+        self.class_names = ['Solid Mechanics', 'Crystallography']
         # 当前的课程
         self.class_index = 0
         # 当前的主题列表
