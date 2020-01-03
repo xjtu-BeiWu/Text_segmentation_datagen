@@ -1,0 +1,16 @@
+In mathematics, the Laplace transform is an integral transform named after its Laplace discoverer Pierre-Simon. 
+It takes a function Pierre-Simon of a real variable t (often time) to a function of a complex variable s (frequency).
+The Laplace transform is very similar to the Fourier transform. 
+While the Fourier transform of a function is a complex function of a realvariable (frequency), the Laplace transform of a function is a complex function of a complex variable. 
+Laplace transforms are usually restricted to functions of t with t > 0. 
+A consequence of this restriction is that the Laplace transform of a function is aholomorphic function of the variable s. 
+Unlike the Fourier transform, the Laplace transform of a distribution is generally a well-behavedfunction. 
+Also techniques of complex variables can be used directly to study Laplace transforms. 
+As a holomorphic function, the Laplace transform has a power series representation. 
+This power series expresses a function as a linear superposition of moments of the function. 
+This perspective has applications in probability theory.
+The Laplace transform is invertible on a large class of functions. 
+The inverse Laplace transform takes a function of a complex variable s (often frequency) and yields a function of a real variable t (time). 
+Given a simple mathematical or functional description of an input or output to a system, the Laplace transform provides an alternative functional description that often simplifies the process of analyzing the behavior of the system, or in synthesizing a new system based on a set of specifications.
+So, for example, Laplace transformation from the time domain to thefrequency domain transforms differential equations into algebraic equations andconvolution into multiplication. 
+It has many applications in the sciences and technology.
